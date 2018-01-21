@@ -1,0 +1,43 @@
+Magic-Eightball-Image {
+  animation: image-spin infinite 20s linear;
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px;
+}
+
+.Fortune-text {
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.Magic-Eigthball-Intro {
+  font-size: large;
+  display: block;
+  text-align: center;
+}
+
+.Magic-EightBall-Container {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+}
+
+@keyframes image-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
