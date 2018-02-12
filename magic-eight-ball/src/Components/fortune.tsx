@@ -5,6 +5,10 @@ interface Style {
   color: string;
 }
 
+/* const badImage = require('../images/unhappy.png');
+const goodImage = require('../images/happiness.png');
+const neutralImage = require('../images/neutral.jpg');}*/
+
 class FortunePage extends React.Component {
     constructor (props: {}, state: {}) {
         super(props);
@@ -23,18 +27,21 @@ class FortunePage extends React.Component {
     render() {
         let style: Style = {color: 'green'};
        // let fortune = this.GetFortune();
-
+       // let image: string = "";
         /* switch (fortune.fortuneType) {
             case Common.FortuneType.Good: {
                 style.color = 'blue';
+                // image = badImage;
                 break;
             }
             case Common.FortuneType.Bad: {
                 style.color = 'red';
+                // image = badImage
                 break;
             }
             case Common.FortuneType.Neutral: {
                 style.color = 'purple';
+                // image = badImage
                 break;
             }
             default: {
@@ -46,6 +53,7 @@ class FortunePage extends React.Component {
         <div>
             {/*<big style={style} className="Fortune-text"> {fortune.fortune} </big>*/}
             <big style={style} className="Fortune-text"> Your future is looking awesome! </big>
+            {/*<img src={image} />*/}
         </div>
         );
         
