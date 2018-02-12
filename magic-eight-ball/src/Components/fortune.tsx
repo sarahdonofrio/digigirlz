@@ -3,7 +3,6 @@ import '../App.css';
 import * as Common from '../common';
 interface Style {
   color: string;
-  fontWeight: 'bold';
 }
 
 class FortunePage extends React.Component {
@@ -22,7 +21,7 @@ class FortunePage extends React.Component {
         return fortunes[0];
     }        
     render() {
-        let style: Style = {color: 'green', fontWeight: 'bold'};
+        let style: Style = {color: 'green'};
        // let fortune = this.GetFortune();
 
         /* switch (fortune.fortuneType) {
