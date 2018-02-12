@@ -10,7 +10,7 @@ class MagicEightBall extends React.Component {
           <p className="Magic-Eigthball-Intro">
             Let's look into the future and see what it holds
           </p> 
-{/*          <img src={magicEightBall} className="Magic-Eightball-Image"/> */}
+            {/*<img src={magicEightBall} className="Magic-Eightball-Image"> */}
         </div>
     );
   }

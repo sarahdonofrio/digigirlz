@@ -1,6 +1,6 @@
 import * as React from 'react';
 import '../App.css';
-// import * as Common from '../common'
+import * as Common from '../common';
 interface Style {
   color: string;
   fontWeight: 'bold';
@@ -12,19 +12,20 @@ class FortunePage extends React.Component {
         this.GetFortune = this.GetFortune.bind(this);
         }
     GetFortune() {
-        /*let fortunes: Common.Fortune[] = [
+        let fortunes: Common.Fortune[] = [
             {fortuneType: Common.FortuneType.Good, fortune: 'Everything will happen the way you want it to'},
             {fortuneType: Common.FortuneType.Bad, fortune: 'Your nemesis will get everything they want'},
             {fortuneType: Common.FortuneType.Neutral, 
             fortune: 'It won’t be super memorable' +
             'In a good or bad way'}
-            ];  */   
+            ];    
+        return fortunes[0];
     }        
     render() {
         let style: Style = {color: 'green', fontWeight: 'bold'};
-        // let fortune = GetFortune();
+       // let fortune = this.GetFortune();
 
-        /*switch (fortune.fortuneType) {
+        /* switch (fortune.fortuneType) {
             case Common.FortuneType.Good: {
                 style.color = 'blue';
                 break;
@@ -44,6 +45,7 @@ class FortunePage extends React.Component {
 
         return (
         <div>
+            {/*<big style={style} className="Fortune-text"> {fortune.fortune} </big>*/}
             <big style={style} className="Fortune-text"> Your future is looking awesome! </big>
         </div>
         );
