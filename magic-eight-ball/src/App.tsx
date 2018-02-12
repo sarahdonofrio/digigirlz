@@ -16,7 +16,7 @@ class App extends React.Component {
             <Route exact={true} path="/" component={MagicEightBall}/>
             <Route  path="/fortune" component={FortunePage}/>
           </Switch>
-    </BrowserRouter >
+         </BrowserRouter >
       </div>
     );
   }
