@@ -17,7 +17,7 @@ class FortunePage extends React.Component {
             {fortuneType: Common.FortuneType.Bad, fortune: 'Your nemesis will get everything they want'},
             {fortuneType: Common.FortuneType.Neutral, 
             fortune: 'It won’t be super memorable' +
-            'In a good or bad way'}
+            ' In a good or bad way'}
             ];    
         return fortunes[0];
     }        
