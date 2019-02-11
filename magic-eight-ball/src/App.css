@@ -20,6 +20,10 @@
   color: white;
 }
 
+.App-font {
+  text-align: center
+}
+
 .App-title {
   font-size: 1.5em;
 }
@@ -32,9 +36,7 @@
 
 .Magic-EightBall-Container {
   vertical-align: top;
-  display: inline-block;
-  text-align: center;
-  width: 300px;
+  width: max-content;
 }
 
 @keyframes image-spin {
