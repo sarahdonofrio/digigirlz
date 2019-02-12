@@ -50,9 +50,9 @@ class FortunePage extends React.Component {
         }*/
 
         return (
-        <div>
+        <div className="Fortune-text">
             {/*<big style={style} className="Fortune-text"> {fortune.fortune} </big>*/}
-            <big style={style} className="Fortune-text"> Your future is looking awesome! </big>
+            <big style={style}> Your future is looking awesome! </big>
             {/*<img src={image} />*/}
         </div>
         );

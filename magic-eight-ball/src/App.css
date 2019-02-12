@@ -7,10 +7,7 @@
 }
 
 .Fortune-text {
-  height: auto; 
-  width: auto; 
-  max-width: 300px; 
-  max-height: 300px;
+  text-align: center;
 }
 
 .App-header {
@@ -20,9 +17,9 @@
   color: white;
 }
 
-/*.App-font {
+.App-font {
   text-align: center
-}*/
+}
 
 .App-title {
   font-size: 1.5em;
